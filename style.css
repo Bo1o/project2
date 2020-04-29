@@ -1,0 +1,44 @@
+body{
+  background-image:linear-gradient(rgba(0, 188, 212, 0.78), rgba(0, 188, 212, 0.78)), url(images/img1.jpg);
+  margin: 0px;
+  height: 95vh;
+}
+
+h1 {
+font-family: 'Pacifico', cursive;
+font-size: 4em;
+color: blanchedalmond;
+text-align: center;
+}
+
+p {
+  color: rgb(22, 22, 21);
+  font-family: 'Pacifico', cursive;
+  font-size: medium;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img:hover {
+transform: scale(1.1);
+}
+
+img {
+  width: 380px;
+  height: 320px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px    
+}
+
+.vid{
+     text-align:center;
+}
